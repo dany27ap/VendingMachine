@@ -11,6 +11,10 @@ namespace VendingMachineApp {
             this.items.Add(item);
         }
 
+        public Item getItem(int index) {
+            return this.items[index];
+        }
+
         public double getCost() {
             double total = 0.0;
 
@@ -23,9 +27,9 @@ namespace VendingMachineApp {
 
         public override string ToString() {
             StringBuilder sb = new StringBuilder();
-
+            int index = 0;
             foreach (Item it in items) {
-                sb.Append("Item: " + it.name());
+                sb.Append(index++ + ".Item: " + it.name());
                 sb.Append(", Packing : " + it.packing().pack());
                 sb.Append(" , Quantity : " + it.GetQuantity());
                 sb.AppendLine(", Price : " + it.price());

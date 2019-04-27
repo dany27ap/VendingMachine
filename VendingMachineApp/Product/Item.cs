@@ -4,7 +4,7 @@ namespace VendingMachineApp {
         string name();
         double price();
         int GetQuantity();
-
+        void RemoveQuantity(int quantity);
         Packing packing();
     }
 }

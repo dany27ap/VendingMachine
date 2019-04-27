@@ -18,6 +18,10 @@ namespace VendingMachineApp {
             return this.quantity;
         }
 
+        public override void RemoveQuantity(int quantity) {
+            
+        }
+
         public override void SetQuantity(int quantity) {
             this.quantity = quantity;
         }

@@ -21,5 +21,9 @@ namespace VendingMachineApp {
         public override int GetQuantity() {
             return this.quantity;
         }
+
+        public override void RemoveQuantity(int quantity) {
+            this.quantity -= quantity;
+        }
     }
 }
