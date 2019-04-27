@@ -1,0 +1,5 @@
+/home/danny/RiderProjects/VendingMachineApp/VendingMachineApp/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/home/danny/RiderProjects/VendingMachineApp/VendingMachineApp/bin/Debug/VendingMachineApp.exe.mdb
+/home/danny/RiderProjects/VendingMachineApp/VendingMachineApp/bin/Debug/VendingMachineApp.exe
+/home/danny/RiderProjects/VendingMachineApp/VendingMachineApp/obj/Debug/VendingMachineApp.exe
+/home/danny/RiderProjects/VendingMachineApp/VendingMachineApp/obj/Debug/VendingMachineApp.exe.mdb
